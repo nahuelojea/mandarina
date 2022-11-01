@@ -1,0 +1,14 @@
+com/ojealuongo/mandarina/config/SwaggerConfig.class
+com/ojealuongo/mandarina/mapper/MandarinaMapperImpl.class
+com/ojealuongo/mandarina/repository/MandarinaRepository.class
+com/ojealuongo/mandarina/openapi/dto/ErrorResponseErrorDTO.class
+com/ojealuongo/mandarina/entity/Mandarina.class
+com/ojealuongo/mandarina/openapi/api/ApiUtil.class
+com/ojealuongo/mandarina/openapi/dto/MandarinaDTO.class
+com/ojealuongo/mandarina/service/MandarinaService.class
+com/ojealuongo/mandarina/openapi/dto/ErrorResponseDTO.class
+com/ojealuongo/mandarina/openapi/api/MandarinaApi.class
+com/ojealuongo/mandarina/service/impl/MandarinaServiceImpl.class
+com/ojealuongo/mandarina/MandarinaApplication.class
+com/ojealuongo/mandarina/mapper/MandarinaMapper.class
+com/ojealuongo/mandarina/controller/MandarinaController.class
