@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-10-23T12:02:08-0300",
-    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.4 (Private Build)"
+    date = "2022-11-01T14:23:26-0300",
+    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 18.0.2.1 (Oracle Corporation)"
 )
 @Component
 public class MandarinaMapperImpl implements MandarinaMapper {

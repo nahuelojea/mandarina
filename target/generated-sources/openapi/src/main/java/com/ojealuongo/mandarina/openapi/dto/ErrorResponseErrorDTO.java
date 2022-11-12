@@ -21,7 +21,7 @@ import javax.annotation.Generated;
 
 @Schema(name = "error_response_error", description = "Payload estandard")
 @JsonTypeName("error_response_error")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-10-23T12:02:06.655944548-03:00[America/Argentina/Buenos_Aires]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-11-01T14:23:24.654369204-03:00[America/Argentina/Buenos_Aires]")
 public class ErrorResponseErrorDTO {
 
   @JsonProperty("message")
