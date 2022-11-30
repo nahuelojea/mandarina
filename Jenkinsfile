@@ -12,7 +12,7 @@ pipeline {
         stage('Build docker'){
             steps{
                 script{
-                    sh ' docker build -t nicolasluongo9/mandarina'
+                    sh ' docker build .'
                 }
             }
         }
