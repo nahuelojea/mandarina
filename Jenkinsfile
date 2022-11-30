@@ -9,5 +9,12 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
+        stage('Build docker'){
+            step{
+                script{
+                    sh ' docker build -t nicolasluongo9/mandarina'
+                }
+            }
+        }
     }
 }
