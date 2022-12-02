@@ -16,5 +16,15 @@ pipeline {
                 }
             }
         }
+        stage('Push to hub'){
+            steps{
+                script{
+                    withCredentials([string(credentialsId: 'dockerhub-pwd', variable: 'dockerhubpwd')]) {
+                    sh 'docker login -u nicolasluongo9 -p ${dockerhubpwd}'
+                    }
+                    sh 'docker push nicolasluongo9/mandarina'
+                }
+            }
+        }
     }
 }
