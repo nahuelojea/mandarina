@@ -12,7 +12,7 @@ pipeline {
         stage('Build docker'){
             steps{
                 script{
-                    sh ' docker build -t nicolasluongo9/mandarina .'
+                    sh ' docker build -t nao1991/mandarina-integration .'
                 }
             }
         }
@@ -20,9 +20,9 @@ pipeline {
             steps{
                 script{
                     withCredentials([string(credentialsId: 'dockerhub-pwd', variable: 'dockerhubpwd')]) {
-                    sh 'docker login -u nicolasluongo9 -p ${dockerhubpwd}'
+                    sh 'docker login -u nao1991 -p ${dockerhubpwd}'
                     }
-                    sh 'docker push nicolasluongo9/mandarina'
+                    sh 'docker push nao1991/mandarina-integration'
                 }
             }
         }
